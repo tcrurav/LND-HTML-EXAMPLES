@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ej.6</title>
+</head>
+
+<body>
+
+    <h1>Ejemplos de Hiperenlace</h1>
+    
+    <!-- El ejemplo más sencillo de hiperenlace -->
+    <p>Visita el <a href="https://www.ieselricon.es">sitio web del IES El Rincón</a>.</p>
+
+    <!-- target="_self" - Abre el documento en la misma ventana o tab dónde se hizo clic. -->
+    <p><a href="https://www.ieselricon.es" target="_self">IES El Rincón</a>. Con _self</p>
+
+    <!-- target="_blank" - Abre el documento en una nueva ventana o tab. -->
+    <p><a href="https://www.ieselricon.es" target="_blank">IES El Rincón</a>. Con _blank</p>
+
+    <!-- target="_parent" - Abre el documento en el iframe ó frame padre. 
+                            El resto de iframes superiores quedan igual. 
+                            Se comporta igual que _self en una página sin iframes. -->
+    <p><a href="https://www.ieselricon.es" target="_parent">IES El Rincón</a>. Con _parent"</p>
+    
+    <!-- target="_top" - Abre el documento en el body de la ventana.
+                         Se comporta igual que _self si no hay iframes.
+                         Si hubiera iframes se eliminan todos. -->
+    <p><a href="https://www.ieselricon.es" target="_top">IES El Rincón</a>. Con _top</p>
+
+</body>
+
+</html>
